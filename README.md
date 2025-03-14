@@ -33,7 +33,9 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Image](https://github.com/user-attachments/assets/fd581858-db9a-40ec-ab7c-e288d1315944)
+
 </p>
 <p>
 Part 1: Install Active Directory
