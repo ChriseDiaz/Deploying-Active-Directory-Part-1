@@ -8,7 +8,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube/ClipChamp: How to Deploy on-premises Active Directory within Azure](https://www.youtube.com)
+- ### [YouTube/ClipChamp: How to Deploy on-premises Active Directory within Azure Part1](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -24,10 +24,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Active Directory Domain Services were installed and configured on DC-1, promoting it to a Domain Controller with the domain mydomain.com.
+
+- Two Organizational Units (OUs) were created: _EMPLOYEES and _ADMINS. A Domain Admin user (jane_admin) was set up and added to the Domain Admins group.
+
+- Client-1 was successfully joined to the domain, and its organizational structure was updated by placing it into the _CLIENTS OU in ADUC.
 
 <h2>Deployment and Configuration Steps</h2>
 
