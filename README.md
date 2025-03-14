@@ -56,7 +56,34 @@ Choose the option to set up a new forest and enter your domain name (e.g., mydom
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create a Domain Admin User & Join Client-1 to the Domain
+
+1.Create Organizational Units (OUs) in ADUC:
+
+Open Active Directory Users and Computers (ADUC).
+Create an Organizational Unit (OU) named _EMPLOYEES.
+Create another OU named _ADMINS.
+
+2.Create Domain Admin User:
+
+Create a new employee account Jane Doe with the username jane_admin and set the password to Cyberlab123!.
+Add jane_admin to the Domain Admins security group.
+
+3.Login as jane_admin:
+
+Log out from DC-1 and log back in as mydomain.com\jane_admin.
+Use jane_admin as your admin account going forward.
+
+4.Join Client-1 to the Domain:
+
+Log in to Client-1 as the original local admin (labuser).
+Join Client-1 to the domain mydomain.com (the computer will restart).
+After the restart, log into the Domain Controller (DC-1) and verify that Client-1 appears in ADUC.
+
+5.Organize Client-1 in ADUC:
+
+Create a new OU called _CLIENTS in ADUC.
+Drag Client-1 into the _CLIENTS OU.
 </p>
 <br />
 
