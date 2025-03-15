@@ -56,7 +56,9 @@ Choose the option to set up a new forest and enter your domain name (e.g., mydom
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![Image](https://github.com/user-attachments/assets/1cd39bdf-7317-46b1-b467-91db3da31af7)
+
 </p>
 <p>
 Create a Domain Admin User & Join Client-1 to the Domain
