@@ -15,7 +15,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+- Active Directory Users and Computers
 
 <h2>Operating Systems Used </h2>
 
